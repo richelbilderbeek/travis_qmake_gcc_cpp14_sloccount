@@ -22,4 +22,4 @@ script:
   # Get my folder
   - my_github=${PWD##*/}  
   # SLOCcount
-  - cd ..; sloccount --overhead 1 --personcost 22614 the_richel_setup; cd $my_github
+  - cd ..; sloccount --overhead 1 --personcost 22614 $my_github; cd $my_github
